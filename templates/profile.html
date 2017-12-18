@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Twitter Clone</title>
+	</head>
+
+	<body>
+		<h1>{{ username }}</h1>
+
+		<ul>
+			{% for tweet in tweets %}
+				<li>{{ tweet }}</li>
+			{% endfor %}
+		</ul>
+	</body>
+</html>
